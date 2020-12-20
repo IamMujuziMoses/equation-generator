@@ -1,1 +1,3 @@
-# equation-generator
+# EquationGenerator
+
+This is a Restful EquationGenerator web service that generates random arithmetic equations of type Equation. The client is math-tutoring application that accepts information about the mathematical question that the user wishes to attempt (addition, subtraction or multiplication) and the skill level of the user (1 specifies equations using numbers from 1 through 9, 2 specifies equations involving numbers from 10 through 99, and 3 specifies equations containing numbers from 100 through 999). The web service then generates an equation consisting of random numbers in the proper range. The client application receives the Equation and displays the sample question to the user.
